@@ -11,3 +11,6 @@ def create_table(conn):
         )
     ''')
     conn.commit()
+
+
+# DB models (if using ORM)

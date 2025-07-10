@@ -7,3 +7,4 @@ export async function recognizeAudio(file) {
   });
   return response.json();
 }
+//     # JS helpers for backend API calls

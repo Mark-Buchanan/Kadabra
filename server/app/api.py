@@ -12,3 +12,5 @@ async def recognize(audio: UploadFile = File(...)):
     data = {'api_token': AUDD_API_TOKEN}
     response = requests.post('https://api.audd.io/', data=data, files=files)
     return response.json()
+
+# API routes (audio upload, recognition)

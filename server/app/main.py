@@ -13,3 +13,5 @@ app.add_middleware(
 )
 
 app.include_router(router)
+
+# Entry point (Flask/FastAPI app)
